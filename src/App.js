@@ -292,7 +292,7 @@ function App() {
       <header className="App-header">
         <Button onClick={onAdd}>Add New User</Button>
 
-        <Table columns={coloumns} dataSource={dataSource}></Table>
+        <Table columns={coloumns} dataSource={dataSource}  ></Table>
 
         <Modal
           title="Edit User"
